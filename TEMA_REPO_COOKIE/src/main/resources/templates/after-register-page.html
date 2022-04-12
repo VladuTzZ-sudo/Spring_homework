@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body th:if="${customer != null}">
+<h2>Username = @<span th:if="${customer != null}" th:text="${customer.username}"></span></h2>
+<h3>Country = <span th:if="${customer != null}" th:text="${customer.country}"></span></h3>
+<h3>City = <span th:if="${customer != null}" th:text="${customer.city}"></span></h3>
+</body>
+<body th:if="${customer == null}">
+<h2>Username = @<span th:if="${message != null}" th:text="${message.toString()}"></span></h2>
+</body>
+</html>

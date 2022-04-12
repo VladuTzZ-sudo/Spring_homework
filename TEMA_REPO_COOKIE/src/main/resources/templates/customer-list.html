@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DBCloud</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Username</th>
+        <th>Country</th>
+        <th>City</th>
+    </tr>
+    <tr th:each="customer : ${customerList}">
+        <td th:text="${customer.username}"></td>
+        <td th:text="${customer.country}"></td>
+        <td th:text="${customer.city}"></td>
+    </tr>
+</table>
+
+</body>
+</html>

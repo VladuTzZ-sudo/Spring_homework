@@ -1,0 +1,28 @@
+User
+	id
+	role
+	name
+	email
+	password
+	cnp
+	// mai multe Account
+	// mai multe carduri
+
+Account
+	id
+	iban
+	// mai multi User
+	// mai multe Card
+
+Card
+	id
+	number
+	cvv
+	expirationDate
+	// apartine unui User
+	// are atasat un Account
+
+1. vad toti User
+2. adaug un Account pentru un User
+3. adaug un Card pentru un Account al unui User
+4. sterg toate cardurile expirate ale unui User

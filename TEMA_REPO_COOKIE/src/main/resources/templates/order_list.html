@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>order_date</th>
+        <th>shipped_date</th>
+        <th>status</th>
+        <th>comments</th>
+        <th>customer_id</th>
+    </tr>
+    <tr th:each="order : ${orderList}">
+        <td th:text="${order.id}"></td>
+        <td th:text="${order.order_date}"></td>
+        <td th:text="${order.shipped_date}"></td>
+        <td th:text="${order.status}"></td>
+        <td th:text="${order.comments}"></td>
+        <td th:text="${order.customer_id}"></td>
+    </tr>
+</table>
+
+</body>
+</html>
