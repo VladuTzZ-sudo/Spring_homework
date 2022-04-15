@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Price</th>
+        <th>PaymentMethod</th>
+    </tr>
+    <tr th:each="order : ${orderList}">
+        <h2>Id = <span th:text="${order.id}"></span></h2>
+        <h2>Price = <span th:text="${order.price}"></span></h2>
+        <h2>PaymentMethod = <span th:text="${order.payment.getPaymentMethod().toString()}"></span></h2>
+    </tr>
+</table>
+
+</body>
+</html>

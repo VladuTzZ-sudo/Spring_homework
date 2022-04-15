@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb022c2b-225a-41a6-b7a2-24586c114ce2" name="Changes" comment="Commit 7" />
+    <list default="true" id="eb022c2b-225a-41a6-b7a2-24586c114ce2" name="Changes" comment="Commit 7">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bank" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -76,7 +79,8 @@
       <workItem from="1649747427685" duration="2348000" />
       <workItem from="1649750640365" duration="2226000" />
       <workItem from="1649759793460" duration="11954000" />
-      <workItem from="1649783887136" duration="3917000" />
+      <workItem from="1649783887136" duration="4791000" />
+      <workItem from="1649858653479" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Commit 2&quot;">
       <created>1649787066895</created>

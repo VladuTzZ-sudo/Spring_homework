@@ -57,6 +57,10 @@ public class Main_java_8 {
 
         //System.out.println(stream1.skip(users.size() - 1).findAny().get());
 
+        List<Produce> products = new ArrayList<>();
+
+        products.stream().map(Produce::getPrice).reduce(Integer::sum);
+        
         System.out.println(stream1.sorted((o1, o2) -> o1.getAge() - o2.getAge()).findFirst().get());
 
     }
