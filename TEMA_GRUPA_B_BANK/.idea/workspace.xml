@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb022c2b-225a-41a6-b7a2-24586c114ce2" name="Changes" comment="Commit 7">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +55,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bank" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RunManager">
     <configuration name="Curs11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -81,6 +80,8 @@
       <workItem from="1649759793460" duration="11954000" />
       <workItem from="1649783887136" duration="4791000" />
       <workItem from="1649858653479" duration="39000" />
+      <workItem from="1650367981164" duration="294000" />
+      <workItem from="1650368297086" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Commit 2&quot;">
       <created>1649787066895</created>

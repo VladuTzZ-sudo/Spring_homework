@@ -1,4 +1,7 @@
-package com.dbcloud.curs11.dao.user;
+package com.example.test_coverage.dao.user;
+
+import com.example.test_coverage.dao.Account.Account;
+import com.example.test_coverage.dao.card.Card;
 
 import javax.persistence.*;
 import java.util.Set;
