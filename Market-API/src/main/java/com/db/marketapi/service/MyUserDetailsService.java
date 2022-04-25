@@ -1,9 +1,8 @@
 package com.db.marketapi.service;
 
-import com.db.marketapi.model.UserLoginDTO;
-import com.db.marketapi.repository.LoginDTORepository;
-import com.db.marketapi.repository.UserRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.db.marketapi.repository.UserLoginDTORepository;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -11,19 +10,18 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class MyUserDetailsService implements UserDetailsService {
-    final
-    LoginDTORepository loginDTORepository;
+    final UserLoginDTORepository userLoginDTORepository;
 
-    public MyUserDetailsService(LoginDTORepository userRepository) {
-        this.loginDTORepository = userRepository;
+    public MyUserDetailsService(UserLoginDTORepository userLoginDTORepository) {
+        this.userLoginDTORepository = userLoginDTORepository;
     }
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return loginDTORepository.findUserLoginDtoByUsername(username);
+        return userLoginDTORepository.findUserLoginDtoByUsername(username);
     }
 
     public UserDetails loadUserByEmail(String email) throws UsernameNotFoundException {
-        return loginDTORepository.findUserLoginDTOByEmail(email);
+        return userLoginDTORepository.findUserLoginDTOByEmail(email);
     }
 }
