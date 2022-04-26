@@ -15,8 +15,7 @@ import java.util.function.Function;
 
 @Service
 public class JwtUtil {
-    @Value("${codingshadows.app.jwtSecret}")
-    private String SECRET_KEY;
+    private String SECRET_KEY = "passwd";
     private final long validityTime = 100 * 60 * 60 * 10;
 
     public String extractEmail(String token) {
