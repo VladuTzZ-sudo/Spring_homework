@@ -22,7 +22,8 @@ public class UserController {
   public Users createUser(@RequestBody Users user) {
     return userService.createUser(user);
   }
-
+  
+  /* AICI ESTE PE METODA DE JWT FARA SPRING SECURITY. */
   @PostMapping("update")
   public Users updateUser(@RequestBody Users user,
                           @RequestHeader String token) {
